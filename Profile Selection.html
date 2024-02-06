@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile Selection</title>
+        <style>
+            body {
+                text-align: center;
+                background: rgb(246, 185, 236);
+                color: rgb(238, 40, 152);
+                font-family: sans-serif;
+            
+            }
+            ul {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                padding: 0;
+                gap: 35px;
+            }
+
+            li {
+                display: flex;
+                flex-direction: column;
+                transition: all .5s;
+            }
+
+            /*When cursor is on top of <li> */
+            li:hover {
+                /* background: red; */
+                transform: scale(1.1);
+            }
+
+            img {
+                width: 240px;
+                height: 240px;
+                border-radius: 50%;
+                outline: solid 4px white;
+            }
+
+            img:hover {
+                border: sold 8x deeppink;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>Who's watching?</h1>
+            <!-- <p> Your avatar and profile name are visible to others</p>-->
+            <ul>
+                <li>
+                    <img src="https://placekitten.com/200/200" alt="Cat with paws">
+                    <span>Elise</span>
+                </li>
+                <li>
+                    <img src="https://placekitten.com/200/200" alt="Cat 2
+                    ">
+                    <span>Gabe</span>
+                </li>
+                <li>
+                    <img src="https://placekitten.com/200/200" alt="Cat 3">
+                    <span>Julia</span>
+                </li>
+            </ul>
+
+        </main>
+    </body>
+</html>
